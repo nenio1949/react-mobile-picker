@@ -3501,6 +3501,25 @@ react-is@^18.2.0:
   resolved "https://registry.npmmirror.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
+react-mobile-universal-picker@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-mobile-universal-picker/-/react-mobile-universal-picker-1.0.0.tgz#2c4aa28710fcfeb3cd574965883395d27dcf3830"
+  integrity sha512-nY+DSfVKQczZ/D5t7/8QQxM70E+ZLNQEDfNk2AOpxYrWTvpM4xadJ1r8KlgSC/pr9GkOhCoGDjAZRg8Zc0a/JQ==
+  dependencies:
+    antd-mobile "^5.32.2"
+    antd-mobile-icons "^0.3.0"
+    vite-plugin-dts "^3.5.3"
+
+react-mobile-universal-picker@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-mobile-universal-picker/-/react-mobile-universal-picker-1.0.1.tgz#7364acaf395eb2f8b024269898caa6e2ea6a0005"
+  integrity sha512-PZbPyJBYwCEf8gZMR2Dd6jqyJv4f1WIpmjUV+PuR5XLIXiOUbgIcUyTCdvKAc+C9X8I/SI2Z1UGGuyIa/ywmJw==
+  dependencies:
+    antd-mobile "^5.32.2"
+    antd-mobile-icons "^0.3.0"
+    react-mobile-universal-picker "^1.0.0"
+    vite-plugin-dts "^3.5.3"
+
 react-refresh@^0.14.0:
   version "0.14.0"
   resolved "https://registry.npmmirror.com/react-refresh/-/react-refresh-0.14.0.tgz"

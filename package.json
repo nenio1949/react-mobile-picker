@@ -1,7 +1,7 @@
 {
   "name": "react-mobile-universal-picker",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "An mobile select box component for React",
   "type": "module",
   "keywords": [
@@ -12,7 +12,7 @@
     "antd-mobile"
   ],
   "files": [
-    "dist",
+    "dist/*",
     "README.md"
   ],
   "main": "./dist/react-mobile-universal-picker.umd.cjs",
@@ -36,6 +36,7 @@
   "dependencies": {
     "antd-mobile": "^5.32.2",
     "antd-mobile-icons": "^0.3.0",
+    "react-mobile-universal-picker": "^1.0.1",
     "vite-plugin-dts": "^3.5.3"
   },
   "peerDependencies": {
