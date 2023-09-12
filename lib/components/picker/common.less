@@ -1,0 +1,73 @@
+.d-popup-container {
+  height: 60vh;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.d-placeholder {
+  color: #cccccc;
+  cursor: pointer;
+}
+
+.d-searchPicker {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60vh;
+  padding: 6px;
+}
+
+.d-searchPicker-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  padding: 8px;
+}
+
+.d-searchPicker-button {
+  color: #1677ff;
+  font-size: 1.2rem;
+}
+
+.d-searchPicker-title {
+  font-size: 1.2rem;
+}
+
+.d-searchPicker-search {
+  height: fit-content;
+  margin-top: 6px;
+}
+
+.d-searchPicker-list {
+  margin-top: 6px;
+  flex: 1;
+  //height: 400px;
+  overflow: scroll;
+}
+
+.d-searchPicker-item {
+  padding: 0.5rem 1.5rem;
+  border-bottom: 0.5px rgba(0, 0, 0, 0.06) solid;
+  font-size: 1rem;
+  min-height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &:active {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+
+  & span {
+    flex: 8;
+  }
+
+  & div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: fit-content;
+    flex: 1;
+  }
+}
