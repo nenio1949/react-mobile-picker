@@ -4,6 +4,8 @@ import { CheckOutline } from 'antd-mobile-icons'
 
 import { CSSProperties, ReactNode } from 'react'
 
+export type PickerValue = number | string | (number | string)[]
+
 export type PickerOption = {
   label: string
   value: number | string
@@ -18,8 +20,8 @@ export type PickerProps = {
   options: PickerOption[]
   text?: ReactNode
   textStyle?: CSSProperties
-  value?: (number | string)[] | number | string
-  onConfirm?: (value: (number | string)[] | number | string) => void
+  value?: PickerValue
+  onConfirm?: (value: PickerValue) => void
   search?: boolean
   searchPlaceholder?: string
   containerStyle?: CSSProperties

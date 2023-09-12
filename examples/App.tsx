@@ -1,15 +1,20 @@
-import React from 'react'
-import Picker from 'react-mobile-universal-picker'
+import React, { useState } from 'react'
+import { UniversalPicker, PickerValue } from '../lib/'
 
 const App = () => {
+  const [value, setValue] = useState<PickerValue>([1])
   return (
     <>
-      <Picker
-        value={1}
+      <UniversalPicker
+        value={value}
+        mode="multiple"
         options={[
-          { value: 1, label: '哈哈哈1' },
-          { value: 2, label: '哈哈哈2' }
+          { value: 1, label: 'Apple' },
+          { value: 2, label: 'Oranges' }
         ]}
+        onConfirm={(value) => {
+          setValue(value)
+        }}
       />
     </>
   )

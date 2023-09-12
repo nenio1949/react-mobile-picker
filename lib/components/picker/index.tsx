@@ -1,5 +1,5 @@
 import './common.less'
-import { UniversalPicker, PickerMode, PickerOption, PickerProps } from './picker'
-export type { PickerMode, PickerOption, PickerProps }
+import { UniversalPicker, PickerValue, PickerMode, PickerOption, PickerProps } from './picker'
+export type { PickerValue, PickerMode, PickerOption, PickerProps }
 
 export default UniversalPicker

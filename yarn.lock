@@ -3520,6 +3520,16 @@ react-mobile-universal-picker@^1.0.1:
     react-mobile-universal-picker "^1.0.0"
     vite-plugin-dts "^3.5.3"
 
+react-mobile-universal-picker@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-mobile-universal-picker/-/react-mobile-universal-picker-1.0.2.tgz#5564481404c263a00d556c67e57b9a75e2c893ea"
+  integrity sha512-xkjC3axWECvACQvRhR+xK6ikjNjX3D3jNDLN26uHvfERN4oqDZ6O5rPGmAravdYJIuYOIyGwvPEAD6cuw/3XuA==
+  dependencies:
+    antd-mobile "^5.32.2"
+    antd-mobile-icons "^0.3.0"
+    react-mobile-universal-picker "^1.0.1"
+    vite-plugin-dts "^3.5.3"
+
 react-refresh@^0.14.0:
   version "0.14.0"
   resolved "https://registry.npmmirror.com/react-refresh/-/react-refresh-0.14.0.tgz"
