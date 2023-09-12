@@ -5,11 +5,11 @@ React Mobile Picker is a very simple application of the React component that is 
 ## Installation
 
 ```bash
-npm install react-mobile-picker
+npm install react-mobile-universal-picker
 ```
 
 or
 
 ```bash
-yarn add react-mobile-picker
+yarn add react-mobile-universal-picker
 ```

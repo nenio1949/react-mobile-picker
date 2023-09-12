@@ -19,14 +19,14 @@ export default defineConfig({
     // 配置路径别名
     alias: {
       '@': join(__dirname, 'lib'),
-      'react-mobile-picker': resolve(__dirname, './lib')
+      'react-mobile-universal-picker': resolve(__dirname, './lib')
     }
   },
   build: {
     lib: {
       entry: resolve(__dirname, 'lib/index.ts'),
       name: 'Picker',
-      fileName: 'react-mobile-picker'
+      fileName: 'react-mobile-universal-picker'
     },
     rollupOptions: {
       external: ['react', 'react-dom'],

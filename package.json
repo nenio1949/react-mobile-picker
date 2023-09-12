@@ -1,5 +1,5 @@
 {
-  "name": "react-mobile-picker",
+  "name": "react-mobile-universal-picker",
   "private": false,
   "version": "1.0.0",
   "description": "An mobile select box component for React",
@@ -15,16 +15,16 @@
     "dist",
     "README.md"
   ],
-  "main": "./dist/react-mobile-picker.umd.cjs",
-  "module": "./dist/react-mobile-picker.js",
-  "typings": "./dist/react-mobile-picker.d.ts",
+  "main": "./dist/react-mobile-universal-picker.umd.cjs",
+  "module": "./dist/react-mobile-universal-picker.js",
+  "typings": "./dist/react-mobile-universal-picker.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/react-mobile-picker.js",
-      "require": "./dist/react-mobile-picker.umd.cjs"
+      "import": "./dist/react-mobile-universal-picker.js",
+      "require": "./dist/react-mobile-universal-picker.umd.cjs"
     }
   },
-  "repository": "https://github.com/nenio1949/react-mobile-picker",
+  "repository": "https://github.com/nenio1949/react-mobile-universal-picker",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
